@@ -1,0 +1,16 @@
+# 构建产物
+/build/
+/cmake-build-*/
+*.inc
+*.td.cpp
+compile_commands.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 生成的文件
+include/toy/*.h.inc
+include/toy/*.cpp.inc
+lib/toy/*.inc
